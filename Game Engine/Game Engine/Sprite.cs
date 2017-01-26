@@ -28,6 +28,10 @@ namespace Engine {
 			set { scale = value; }
 		}
 
+		public int ChildCount {
+			get { return children.Count; }
+		}
+
 		public Sprite() {
 			children = new List<Sprite>();
 			this.x = 0;
@@ -48,6 +52,14 @@ namespace Engine {
 
 		public void Add(Sprite s) {
 			children.Add(s);
+		}
+
+		public void Remove(int n) {
+			for(int i = 0; i < n; i++) {
+				if(children.Count == 0)
+					break;
+				children.Remove(children.Last());
+			}
 		}
 
 		public virtual void Paint(Graphics g) {
