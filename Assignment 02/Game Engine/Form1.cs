@@ -26,7 +26,7 @@ namespace Engine {
 		public static Thread gameThread;
 
 		const int FRAME_RATE = 60;
-		const int UPDATE_RATE = 6;
+		const int UPDATE_RATE = 60;
 
 		public double Seconds {
 			get { return seconds; }
@@ -43,7 +43,7 @@ namespace Engine {
 			main = new Sprite();
 			Image img = (Image)Resources.ResourceManager.GetObject("face1");
 			Random rand = new Random();
-			for(int i = 0; i < 10; i++) {
+			for(int i = 0; i < 15; i++) {
 				main.Add(new ImageSprite(img, rand.Next(200000)));
 			}
 			form = this;

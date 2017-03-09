@@ -2,12 +2,16 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Engine {
 	class ImageSprite:Sprite {
 
+		public static SoundPlayer soundPlayer;
+
+		private Boolean sound;
 		private Image img;
 		private int p;
 
@@ -27,6 +31,15 @@ namespace Engine {
 			p++;
 			Rotation++;
 			Rotation %= 360;
+			if(X < 300)
+				sound = false;
+			else if(X > 300 && !sound) {
+				sound = true;
+				if(soundPlayer == null) {
+					soundPlayer = new SoundPlayer(@"c:\vroom.wav");
+				}
+				soundPlayer.Play();
+			}
 		}
 
 		public override void Paint(Graphics g) {
