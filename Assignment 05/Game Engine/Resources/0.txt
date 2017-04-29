@@ -1,0 +1,43 @@
+HL     J  Fj
+BBBBBBBBBBBBB
+JASON_LY
+JASON_LY
+On October 8, 2015 around 11:00 PM, Jason Ly was writing a hangman program.
+While writing his hangman program, Jason was hit with divine inspiration from
+the god of hangman. Upon receiving his inspiration, Jason wrote "Hungman."
+Because Jason felt that Hungman was the will of the gods,
+Jason safeguarded Hungman with his life. While Jason being inspired,
+he was taught by the gods to duplicate himself. He used his duplicates
+to help him protect Hungman from the rest of the world. With his first set
+of duplicates, he messed up and failed to give them the ability to move.
+With his second set, he gave them the ability to move around a fixed path.
+He never failed to give his duplicates the ability to throw
+balls at people, however.
+
+Press any key to continue...
+JASON_LY
+April 20, 2017 12:30 PM
+Enter young Levi West.
+Levi is a young adventurer seeking the treasures of the world.
+Levi has heard the story of Hungman for the past 2 years,
+but has never played it. Levi, curious about what is actually
+contained within Hungman.java, begins his quest to find Hungman.
+
+Press any key to continue...
+JASON_LY
+April 20, 2017 12:45 PM
+After researching the old legend, Levi finds that copies of Hungman are
+scattered about a land known as "The Lando of Ly and Brightwell." Levi travels
+to The Land of Ly and Brightwell only to find some of Jason's duplicates!
+After assessing his situation, however, Levi sees that behind the duplicates
+lies a copy of Hungman!
+
+Levi hopes to carry the copy of Hungman back to his computer to test it out.
+
+Controls:
+A = Left
+D = Right
+Space = Jump
+LMB = Shoot
+
+Press any key to continue...

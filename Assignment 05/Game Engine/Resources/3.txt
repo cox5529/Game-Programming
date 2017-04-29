@@ -1,0 +1,19 @@
+HL                BBB
+BBBBBBBBBBB  BBBB    B
+           BFFFFFJFFFFFB  
+           BBBBBBBBBBBBBB
+JASON_LY
+DifficultyMultiplier = 2
+JASON_LY
+After distributing those copies of Hungman to his a select few,
+Levi wants more copies of Hungman. Levi searches near and far
+for 10 more copies, but fails to find any. As a result, Levi
+travels to Jason's room where Jason keeps his copies.
+
+Press any key to continue...
+JASON_LY
+Upon finding Jason's room, Levi is confronted by the real Jason!
+Levi prepares to fight Jason so that he can capture the last 10
+copies of Hungman.
+
+Press any key to continue...

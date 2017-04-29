@@ -1,0 +1,19 @@
+HUNGMAN
+JASON_LY
+JASON_LY
+Levi starts up his computer to play his new copy
+of Hungman.
+
+Upon starting his computer, he cuts and pastes his
+copy of Hungman into his email and sends it to himself.
+
+Levi proceeds to play Hungman on his phone.
+
+Press any key to continue...
+JASON_LY
+Controls:
+Any letter a-z: Guess
+
+Finish the game of Hungman.
+
+Press any key to continue...

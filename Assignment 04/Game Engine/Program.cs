@@ -69,6 +69,10 @@ namespace Engine {
 					Reset(false);
 					return;
 				}
+				if(e.KeyCode == Keys.N) {
+					Reset(true);
+					return;
+				}
 				if(changed) {
 					levi.TargetLeviX = x * IMAGE_SIZE;
 					levi.TargetLeviY = y * IMAGE_SIZE;
@@ -142,6 +146,10 @@ namespace Engine {
 
 		private void fixScale() {
 			float s = (float)(Math.Min(ClientSize.Width, ClientSize.Height) / (Math.Max(goals.GetLength(0), goals.GetLength(1)) * IMAGE_SIZE * 1.0));
+			Canvas.X = (ClientSize.Width - IMAGE_SIZE * s * width) / 2;
+			Canvas.Y = (ClientSize.Height - IMAGE_SIZE * s * height) / 2;
+			GUI.X = Canvas.X;
+			GUI.Y = Canvas.Y;
 			Canvas.Scale = s;
 			winSprite.X = width * IMAGE_SIZE * s / 2;
 			winSprite.Y = height * IMAGE_SIZE * s / 2;
@@ -152,7 +160,7 @@ namespace Engine {
 			Canvas.ClearChildren();
 			winSprite.Win = false;
 			String[] lines = stage.Split('\n');
-			width = lines[0].Length;
+			width = lines[0].Length - 1;
 			height = lines.Length;
 			Debug.WriteLine(width);
 			Debug.WriteLine(height);
@@ -191,8 +199,7 @@ namespace Engine {
 		}
 
 		private static void ChooseStage() {
-			Random rnd = new Random();
-			int index = rnd.Next(stages.Length);
+			int index = 2;
 			stage = stages[index];
 			startStage = index;
 		}
